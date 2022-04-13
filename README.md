@@ -4,6 +4,7 @@
 1. Ability to use camera (or upload pictures)
 2. Ability to enter text (for a review, address, and comments (maybe))
 3. Grid layout
+#
 ## Implemented Features
 *Enter implemented features here (remove from planned features if implemented)*
 #
