@@ -1,4 +1,10 @@
 # Mobile App Project *(Replace this name with the name of the app)*
+## UPDATE: 4/17/2022
+Removed values-night folder. The default theme is a night theme.
+Added 5 vector drawables (add, delete, next, previous, upload_photo)
+Added string_ideas.xml. This is just some ideas that can be used for the app
+Modified colors.xml and themes.xml
+#
 ## Planned Features
 *Enter planned features here: (These are examples)*
 1. Ability to use camera (or upload pictures)
