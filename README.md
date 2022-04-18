@@ -39,7 +39,6 @@
 4. Select **Okay**
 5. Wait for updated files to be downloaded
 
-ZB - Confirming I can update. 3
 #
 ### Committing and Pushing changes:
 **WARNING: Make sure that your project is fully updated before doing this**
