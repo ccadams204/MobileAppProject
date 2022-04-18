@@ -1,5 +1,8 @@
 <resources>
-    <string name="app_name">Mobile App Project</string>
+    <string name="app_name">Munch</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="home_fragment">Home Fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="warning">"If you're seeing this, you really shouldn't be."</string>
 </resources>
