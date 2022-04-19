@@ -1,4 +1,4 @@
-# Mobile App Project *(Replace this name with the name of the app)*
+# Munch (Mobile App Project)
 ## UPDATE: 4/18/2022
 - Added fragments Home and AddEntry for the multiple pages the app will have.
 - Began the creation of the main screen and design. 
@@ -38,7 +38,7 @@
 #
 ### Updating:
 1. With the project opened, open the **Git** dropdown menu
-2. Select **Update Project...*
+2. Select **Update Project...**
 3. Choose the appropriate update method
 4. Select **Okay**
 5. Wait for updated files to be downloaded
