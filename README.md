@@ -1,4 +1,8 @@
 # Mobile App Project *(Replace this name with the name of the app)*
+## UPDATE: 4/18/2022
+- Added fragments Home and AddEntry for the multiple pages the app will have.
+- Began the creation of the main screen and design. 
+
 ## UPDATE: 4/17/2022
 - Removed values-night folder. The default theme is a night theme.  
 - Added 5 vector drawables (add, delete, next, previous, upload_photo)  
