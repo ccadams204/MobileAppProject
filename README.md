@@ -1,7 +1,6 @@
 # Munch (Mobile App Project)
 ## Description (Small)
 A journal to keep track of your favorite restaurants.
-#
 ## Description (Full) *Rough Draft*
 Munch is a journal app that you can use to keep track of your favorite restaurants. Have you ever wanted a place to keep information about restaurants you have visited? With **Munch**, you can keep a personal record of restaurants and the food served. You can add a personal photo of the restaurant, by either taking a photo or using a saved photo from your phone. You can also add a personal rating of each restaurant. All of the information in the journal entry is saved to your device, and can be viewed and edited at anytime. <br>  
 **Features** <br>
