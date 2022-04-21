@@ -1,4 +1,16 @@
 # Munch (Mobile App Project)
+## Description (Small)
+A journal to keep track of your favorite restaurants.
+#
+## Description (Full) *Rough Draft*
+Munch is a journal app that you can use to keep track of your favorite restaurants. Have you ever wanted a place to keep information about restaurants you have visited? With **Munch**, you can keep a personal record of restaurants and the food served. You can add a personal photo of the restaurant, by either taking a photo or using a saved photo from your phone. You can also add a personal rating of each restaurant. All of the information in the journal entry is saved to your device, and can be viewed and edited at anytime. <br>  
+**Features** <br>
+Add or delete entries <br>
+Entries can include a personal rating, photo, and a review <br>
+Information is stored locally on your device
+#
+## UPDATE: 4/21/2022
+- Added rough drafts of both the small and full descriptions to the readme.
 ## UPDATE: 4/20/2022
 - Added saved entries fragment.
 - Needs to connect with add entry- will adjust the view after some test cases.
@@ -17,7 +29,6 @@
 *Enter planned features here: (These are examples)*
 1. Ability to use camera (or upload pictures)
 2. Ability to enter text (for a review, address, and comments (maybe))
-3. Grid layout
 #
 ## Implemented Features
 *Enter implemented features here (remove from planned features if implemented)*
