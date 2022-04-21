@@ -1,6 +1,6 @@
 # Munch (Mobile App Project)
 ## UPDATE: 4/20/2022
-- Added entry list fragment.
+- Added saved entries fragment.
 - Needs to connect with add entry- will adjust the view after some test cases.
 
 ## UPDATE: 4/18/2022
