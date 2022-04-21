@@ -1,4 +1,8 @@
 # Munch (Mobile App Project)
+## UPDATE: 4/20/2022
+- Added entry list fragment.
+- Needs to connect with add entry- will adjust the view after some test cases.
+
 ## UPDATE: 4/18/2022
 - Added fragments Home and AddEntry for the multiple pages the app will have.
 - Began the creation of the main screen and design. 
