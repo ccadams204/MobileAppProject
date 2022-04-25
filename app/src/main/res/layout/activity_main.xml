@@ -10,7 +10,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/nav_host_fragment"
-        android:name="com.zybooks.mobileappproject.HomeFragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:defaultNavHost="true"
@@ -25,13 +25,32 @@
         android:id="@+id/nav_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="0dp"
-        android:layout_marginEnd="0dp"
-        android:background="?android:attr/windowBackground"
+        android:background="@color/navBar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:menu="@menu/nav_menu"
         />
+
+    <ImageView
+        android:id="@+id/imgCamera"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="564dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/TakeImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="-153dp"
+        tools:layout_editor_absoluteY="189dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

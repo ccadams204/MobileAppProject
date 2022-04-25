@@ -5,6 +5,10 @@ plugins {
 android {
     compileSdk 32
 
+    buildFeatures {
+            viewBinding true
+    }
+
     defaultConfig {
         applicationId "com.zybooks.mobileappproject"
         minSdk 21
