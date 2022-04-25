@@ -8,7 +8,6 @@
     android:background="@color/paleblue_900"
     tools:context=".HomeFragment">
 
-
     <TextView
         android:id="@+id/welcome"
         android:layout_width="wrap_content"

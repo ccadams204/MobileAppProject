@@ -1,39 +1,4 @@
-# Munch (Mobile App Project)
-## Google Play Store Requirements (*Remove before submitting to professor*)
-- A functioning app
-- A developer name
-- Screenshots
-- Icon
-- Feature graphic (optional)  
-
-**Note from me (ccadams204):** I will cover the creation of the developer account and the cost associated with it.
-
-## Description (Small)
-A journal to keep track of your favorite restaurants.
-## Description (Full) *Rough Draft*
-Munch is a journal app that you can use to keep track of your favorite restaurants. Have you ever wanted a place to keep information about restaurants you have visited? With **Munch**, you can keep a personal record of restaurants and the food served. You can add a personal photo of the restaurant, by either taking a photo or using a saved photo from your phone. You can also add a personal rating of each restaurant. All of the information in the journal entry is saved to your device, and can be viewed and edited at anytime. <br>  
-**Features** <br>
-Add or delete entries <br>
-Entries can include a personal rating, photo, and a review <br>
-Information is stored locally on your device
-#
-*Update section may be removed*
-## UPDATE: 4/24/2022
-- Readme update:
-  - Added list of Google Play Store requirements
-  - Added some tags to indicate what may need to be removed before submission (*basically notes to self*)
-- Planned:
-  - Add a folder with some background pictures
-## UPDATE: 4/21/2022
-- Added rough drafts of both the small and full descriptions to the readme.
-## UPDATE: 4/20/2022
-- Added saved entries fragment.
-- Needs to connect with add entry- will adjust the view after some test cases.
-
-## UPDATE: 4/18/2022
-- Added fragments Home and AddEntry for the multiple pages the app will have.
-- Began the creation of the main screen and design. 
-
+# Mobile App Project *(Replace this name with the name of the app)*
 ## UPDATE: 4/17/2022
 - Removed values-night folder. The default theme is a night theme.  
 - Added 5 vector drawables (add, delete, next, previous, upload_photo)  
@@ -44,6 +9,7 @@ Information is stored locally on your device
 *Enter planned features here: (These are examples)*
 1. Ability to use camera (or upload pictures)
 2. Ability to enter text (for a review, address, and comments (maybe))
+3. Grid layout
 #
 ## Implemented Features
 *Enter implemented features here (remove from planned features if implemented)*
@@ -68,7 +34,7 @@ Information is stored locally on your device
 #
 ### Updating:
 1. With the project opened, open the **Git** dropdown menu
-2. Select **Update Project...**
+2. Select **Update Project...*
 3. Choose the appropriate update method
 4. Select **Okay**
 5. Wait for updated files to be downloaded

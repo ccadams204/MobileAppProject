@@ -10,9 +10,18 @@
         <entry key="..\:/Users/camer/AndroidStudioProjects/MobileAppProject/app/src/main/res/drawable/next.xml" value="0.2898148148148148" />
         <entry key="..\:/Users/camer/AndroidStudioProjects/MobileAppProject/app/src/main/res/drawable/previous.xml" value="0.2898148148148148" />
         <entry key="..\:/Users/camer/AndroidStudioProjects/MobileAppProject/app/src/main/res/drawable/upload_photo.xml" value="0.2898148148148148" />
+        <entry key="..\:/Users/zachb/AndroidStudioProjects/MobileAppProject/app/src/main/res/drawable/add.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/zachb/AndroidStudioProjects/MobileAppProject/app/src/main/res/drawable/button_border.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/zachb/AndroidStudioProjects/MobileAppProject/app/src/main/res/drawable/home.xml" value="0.2276923076923077" />
+        <entry key="..\:/Users/zachb/AndroidStudioProjects/MobileAppProject/app/src/main/res/drawable/next.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/zachb/AndroidStudioProjects/MobileAppProject/app/src/main/res/font/lobster.xml" value="0.2317948717948718" />
         <entry key="..\:/Users/zachb/AndroidStudioProjects/MobileAppProject/app/src/main/res/layout/activity_main.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/zachb/AndroidStudioProjects/MobileAppProject/app/src/main/res/layout/fragment_add_entry.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/zachb/AndroidStudioProjects/MobileAppProject/app/src/main/res/layout/fragment_confirm_image.xml" value="0.19114583333333332" />
         <entry key="..\:/Users/zachb/AndroidStudioProjects/MobileAppProject/app/src/main/res/layout/fragment_home.xml" value="0.19114583333333332" />
+        <entry key="..\:/Users/zachb/AndroidStudioProjects/MobileAppProject/app/src/main/res/layout/fragment_home2.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/zachb/AndroidStudioProjects/MobileAppProject/app/src/main/res/layout/fragment_saved_entries.xml" value="0.21510416666666668" />
+        <entry key="..\:/Users/zachb/AndroidStudioProjects/MobileAppProject/app/src/main/res/menu/nav_menu.xml" value="0.21510416666666668" />
       </map>
     </option>
   </component>
