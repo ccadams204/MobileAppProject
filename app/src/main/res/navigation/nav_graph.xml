@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.zybooks.mobileappproject.HomeFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_home"
+        />
+
+    <fragment
+        android:id="@+id/navigation_add_entry"
+        android:name="com.zybooks.mobileappproject.AddEntryFragment"
+        android:label="@string/add_entry"
+        tools:layout="@layout/fragment_add_entry"
+        />
+
+    <fragment
+        android:id="@+id/navigation_saved_entries"
+        android:name="com.zybooks.mobileappproject.SavedEntriesFragment"
+        android:label="@string/saved_entries"
+        tools:layout="@layout/fragment_saved_entries"
+        />
+
+</navigation>

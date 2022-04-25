@@ -6,25 +6,48 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/paleblue_900"
-    tools:context=".MainActivity">
+    tools:context=".HomeFragment">
 
 
     <TextView
         android:id="@+id/welcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="168dp"
-        android:textColor="@color/white"
-        android:background="@color/paleblue_900"
+        android:layout_marginTop="128dp"
         android:gravity="center_horizontal"
         android:text="@string/app_name"
         android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/white"
         android:textSize="40sp"
         android:textStyle="bold"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/new_entry_button"
+        android:layout_width="212dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="276dp"
+        android:text="Add a New Entry"
+        android:textAlignment="center"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#000000" />
 
+    <Button
+        android:id="@+id/saved_entries_button"
+        android:layout_width="212dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="440dp"
+        android:text="View Saved Entries"
+        android:textAlignment="center"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#000000" />
 </androidx.constraintlayout.widget.ConstraintLayout>
