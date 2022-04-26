@@ -1,13 +1,4 @@
 # Munch (Mobile App Project)
-## Google Play Store Requirements (*Remove before submitting to professor*)
-- A functioning app
-- A developer name
-- Screenshots
-- Icon
-- Feature graphic (optional)  
-
-**Note from me (ccadams204):** I will cover the creation of the developer account and the cost associated with it.
-
 ## Description (Small)
 A journal to keep track of your favorite restaurants.
 ## Description (Full) *Rough Draft*
@@ -17,13 +8,6 @@ Add or delete entries <br>
 Entries can include a personal rating, photo, and a review <br>
 Information is stored locally on your device
 #
-*Update section may be removed*
-## UPDATE: 4/24/2022
-- Readme update:
-  - Added list of Google Play Store requirements
-  - Added some tags to indicate what may need to be removed before submission (*basically notes to self*)
-- Planned:
-  - Add a folder with some background pictures
 ## UPDATE: 4/21/2022
 - Added rough drafts of both the small and full descriptions to the readme.
 ## UPDATE: 4/20/2022
