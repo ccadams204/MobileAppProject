@@ -6,6 +6,8 @@
     <string name="app_name">Munch</string>
     <string name="saved_entries">Saved Entries</string>
     <string name="confirm_image">Confirm Image</string>
-<!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_restaurant">Restaurant Name</string>
+    <string name="mealName">Enter meal name</string>
+    <string name="visitedDate">Date</string>
+
 </resources>
