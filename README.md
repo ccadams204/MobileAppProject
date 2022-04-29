@@ -16,37 +16,13 @@ Munch is a journal app that you can use to keep track of your favorite restauran
 Add or delete entries <br>
 Entries can include a personal rating, photo, and a review <br>
 Information is stored locally on your device
-#
-*Update section may be removed*
-## UPDATE: 4/24/2022
-- Readme update:
-  - Added list of Google Play Store requirements
-  - Added some tags to indicate what may need to be removed before submission (*basically notes to self*)
-- Planned:
-  - Add a folder with some background pictures
-## UPDATE: 4/21/2022
-- Added rough drafts of both the small and full descriptions to the readme.
-## UPDATE: 4/20/2022
-- Added saved entries fragment.
-- Needs to connect with add entry- will adjust the view after some test cases.
-
-## UPDATE: 4/18/2022
-- Added fragments Home and AddEntry for the multiple pages the app will have.
-- Began the creation of the main screen and design. 
-
-## UPDATE: 4/17/2022
-- Removed values-night folder. The default theme is a night theme.  
-- Added 5 vector drawables (add, delete, next, previous, upload_photo)  
-- Added string_ideas.xml. This is just some ideas that can be used for the app.  
-- Modified colors.xml and themes.xml  
-#
 ## Planned Features
 *Enter planned features here: (These are examples)*
 1. Ability to use camera (or upload pictures)
-2. Ability to enter text (for a review, address, and comments (maybe))
 #
 ## Implemented Features
 *Enter implemented features here (remove from planned features if implemented)*
+1. (Possibly) Ability to enter text (for a review, address, and comments (maybe))
 #
 #
 ## Instructions (For collaborators)
