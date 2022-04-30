@@ -10,8 +10,24 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.EditText;
+
+import java.util.List;
 
 public class AddEntryFragment extends Fragment implements View.OnClickListener {
+
+    List<Entries> entriesList;
+    EditText name, mealName, date;
+
+
+
+
+    MyApplication myApplication =  this.getApplication();
+
+    private MyApplication getApplication() {
+        return myApplication;
+    }
+
 
     public static final String ARG_SAVE_ID = "save_id";
 
@@ -29,24 +45,37 @@ public class AddEntryFragment extends Fragment implements View.OnClickListener {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View vv = inflater.inflate(R.layout.fragment_add_entry, container, false);
 
         Button submitButton = vv.findViewById(R.id.new_entry_button);
 
         submitButton.setOnClickListener(this);
 
+        //entriesList = myApplication.getEntriesList();
+        //name = name.findViewById(R.id.name);
+        //mealName = mealName.findViewById(R.id.mealName);
+        //date = date.findViewById(R.id.visitedDate);
+        //rating here
+
+        //int nextId = myApplication.getNextId();
+        //Entries newEntry = new Entries(nextId, name.getText().toString(),mealName.getText().toString(), Integer.getInteger(date.getText().toString()), 0,"");
+
+       //entriesList.add(newEntry);
+        //myApplication.setNextId(nextId++);
+
+
         // Inflate the layout for this fragment
         return vv;
+
     }
 
     @Override
     public void onClick(View view) {
-        switch (view.getId()) {
-            case R.id.new_entry_button:
-                //Control the button
-                break;
+           switch (view.getId()){
+        case R.id.new_entry_button:
+            //
+            break;
         }
     }
 }
