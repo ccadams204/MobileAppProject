@@ -12,13 +12,12 @@ public class Entries {
 
 
 
-    public Entries(int id, String resName, String meal, int date, int rating, String image) {
+    public Entries(int id, String resName, String meal, int date, int rating) {
         this.id = id;
         this.resName = resName;
         this.meal = meal;
         this.date = date;
         this.rating = rating;
-        this.image = image;
     }
 
     public int getId() { return id;}

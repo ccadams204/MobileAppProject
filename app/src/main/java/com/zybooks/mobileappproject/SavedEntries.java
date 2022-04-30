@@ -63,7 +63,7 @@ public class SavedEntries extends Fragment implements View.OnClickListener {
 
     List<Entries> entriesList;
 
-    private RecyclerView recyclerView;
+    RecyclerView recyclerView;
     private RecyclerView.Adapter mAdapter;
     private RecyclerView.LayoutManager layoutManager;
 
@@ -75,21 +75,19 @@ public class SavedEntries extends Fragment implements View.OnClickListener {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        //entriesList = myApplication.getEntriesList();
+        View vvv = inflater.inflate(R.layout.fragment_saved_entries, container, false);
+        recyclerView = vvv.findViewById(R.id.lv_entryList);
 
-        /**entriesList = myApplication.getEntriesList();
-
-        recyclerView = recyclerView.findViewById(R.id.lv_entryList);
         recyclerView.setHasFixedSize(true);
 
-        layoutManager = new LinearLayoutManager(getActivity());
+
+        mAdapter = new RecycleViewAdapter(entriesList, vvv.getContext());
+        layoutManager = new LinearLayoutManager(vvv.getContext());
+
         recyclerView.setLayoutManager(layoutManager);
-
-        mAdapter = new RecycleViewAdapter(entriesList, (Context) getActivity());
         recyclerView.setAdapter(mAdapter);
-         **/
 
-        return inflater.inflate(R.layout.fragment_saved_entries, container, false);
+        return vvv;
 
     }
 
@@ -97,7 +95,7 @@ public class SavedEntries extends Fragment implements View.OnClickListener {
     public void onViewCreated(@NonNull View view, Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        /**entriesList = myApplication.getEntriesList();
+         entriesList = myApplication.getEntriesList();
 
          recyclerView = recyclerView.findViewById(R.id.lv_entryList);
          recyclerView.setHasFixedSize(true);
@@ -107,7 +105,7 @@ public class SavedEntries extends Fragment implements View.OnClickListener {
 
          mAdapter = new RecycleViewAdapter(entriesList, (Context) getActivity());
          recyclerView.setAdapter(mAdapter);
-         **/
+
     }
 
     public MyApplication getApplication() {
