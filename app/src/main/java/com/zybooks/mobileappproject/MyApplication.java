@@ -17,9 +17,8 @@ public class MyApplication extends Application {
 
     }
 
-    private void fillEntryList() {
-        Entries p0 = new Entries(0, "McDonalds", "Nuggets", 4292022,5);
-
+    public void fillEntryList() {
+        Entries p0 = new Entries(0, "McDonald's", "Nuggets",5);
 
         entriesList.addAll(Arrays.asList(new Entries[]{p0}));
 

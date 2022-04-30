@@ -36,7 +36,8 @@ public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
         holder.textView.setText(entriesList.get(position).getResName());
         holder.textView2.setText(entriesList.get(position).getMeal());
-        Glide.with(this.context).load(entriesList.get(position).getImageURL()).into(holder.imageView);
+        holder.textView3.toString().valueOf(entriesList.get(position).getRating());
+
         //concat string.valueOf(list) for integers
 
     }
@@ -50,12 +51,17 @@ public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.
         ImageView imageView;
         TextView textView;
         TextView textView2;
+        TextView textView3;
+
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
             imageView = itemView.findViewById(R.id.imageView);
             textView = itemView.findViewById(R.id.textView);
             textView2 = itemView.findViewById(R.id.textView2);
+            textView3 = itemView.findViewById(R.id.textView3);
+
+
         }
 
 

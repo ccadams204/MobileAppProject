@@ -103,7 +103,7 @@ public class SavedEntries extends Fragment implements View.OnClickListener {
          layoutManager = new LinearLayoutManager(getActivity());
          recyclerView.setLayoutManager(layoutManager);
 
-         mAdapter = new RecycleViewAdapter(entriesList, (Context) getActivity());
+         mAdapter = new RecycleViewAdapter(entriesList, (Context)getActivity());
          recyclerView.setAdapter(mAdapter);
 
     }

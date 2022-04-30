@@ -7,20 +7,42 @@
     android:layout_height="wrap_content">
 
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="190dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="52dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="190dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginBottom="92dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView" />
+
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="85dp"
-        android:layout_height="72dp"
+        android:layout_width="135dp"
+        android:layout_height="200dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:scaleX="1"
+        android:scaleY="1"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/ic_baseline_fastfood_24" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="60dp"
-        android:layout_height="20dp"
+        android:layout_width="190dp"
+        android:layout_height="25dp"
         android:layout_marginStart="60dp"
         android:layout_marginTop="16dp"
         android:text="TextView"
@@ -29,10 +51,10 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="61dp"
-        android:layout_height="22dp"
+        android:layout_width="190dp"
+        android:layout_height="25dp"
         android:layout_marginStart="60dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="132dp"
         android:text="TextView"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageView" />

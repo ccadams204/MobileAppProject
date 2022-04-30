@@ -17,7 +17,7 @@ import java.util.List;
 public class AddEntryFragment extends Fragment implements View.OnClickListener {
 
     List<Entries> entriesList;
-    EditText name, mealName, date;
+    EditText name, mealName, rating;
 
 
 
@@ -52,18 +52,6 @@ public class AddEntryFragment extends Fragment implements View.OnClickListener {
 
         submitButton.setOnClickListener(this);
 
-        //entriesList = myApplication.getEntriesList();
-        //name = name.findViewById(R.id.name);
-        //mealName = mealName.findViewById(R.id.mealName);
-        //date = date.findViewById(R.id.visitedDate);
-        //rating here
-
-        //int nextId = myApplication.getNextId();
-        //Entries newEntry = new Entries(nextId, name.getText().toString(),mealName.getText().toString(), Integer.getInteger(date.getText().toString()), 0,"");
-
-       //entriesList.add(newEntry);
-        //myApplication.setNextId(nextId++);
-
 
         // Inflate the layout for this fragment
         return vv;
@@ -74,7 +62,19 @@ public class AddEntryFragment extends Fragment implements View.OnClickListener {
     public void onClick(View view) {
            switch (view.getId()){
         case R.id.new_entry_button:
-            //
+            entriesList = myApplication.getEntriesList();
+            name = name.findViewById(R.id.name);
+            mealName = mealName.findViewById(R.id.mealName);
+            rating = rating.findViewById(R.id.visitedDate);
+            //rating here
+
+            int nextId = myApplication.getNextId();
+            Entries newEntry = new Entries(nextId, name.getText().toString(),mealName.getText().toString(), 0);
+
+            entriesList.add(newEntry);
+            myApplication.setNextId(nextId++);
+            myApplication.fillEntryList();
+
             break;
         }
     }
