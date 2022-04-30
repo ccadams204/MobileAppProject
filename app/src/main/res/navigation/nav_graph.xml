@@ -22,7 +22,7 @@
 
     <fragment
         android:id="@+id/navigation_saved_entries"
-        android:name="com.zybooks.mobileappproject.SavedEntriesFragment"
+        android:name="com.zybooks.mobileappproject.SavedEntries"
         android:label="@string/saved_entries"
         tools:layout="@layout/fragment_saved_entries"
         />
